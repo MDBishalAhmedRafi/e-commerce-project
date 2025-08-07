@@ -10,7 +10,7 @@ const CartModal = () => {
         <div className=""> Class is Empty</div>
       ) : (
         <>
-        <h2 className="text-xl">Shopping Cart</h2>
+          <h2 className="text-xl">Shopping Cart</h2>
           <div className="flex flex-col gap-8">
             {/* Item */}
             <div className="flex gap-4">
@@ -49,11 +49,15 @@ const CartModal = () => {
               <span className="">$49</span>
             </div>
             <p className="text-gray-500 text-sm mt-2 mb-4">
-             Shipping and taxes calculated at checkout
+              Shipping and taxes calculated at checkout
             </p>
-            <div className="flex justify-between text-sm"> 
-                <button className="rounded-md py-3 px-3 ring-1 ring-gray-300">View Cart</button>
-                <button className="rounded-md py-3 px-3 bg-black text-white">Checkout</button>
+            <div className="flex justify-between text-sm">
+              <button className="rounded-md py-3 px-3 ring-1 ring-gray-300">
+                View Cart
+              </button>
+              <button className="rounded-md py-3 px-3 bg-black text-white">
+                Checkout
+              </button>
             </div>
           </div>
         </>
