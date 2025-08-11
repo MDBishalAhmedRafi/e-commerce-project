@@ -44,13 +44,13 @@ const NavbarIcons = () => {
         height={22}
         className="cursor-pointer"
       ></Image>
-      <div className="relative cursor-pointer ">
+      <div className="relative cursor-pointer" onClick={() => setIsCartOpen((prev) => !prev)}>
       <Image
         src={"/cart.png"}
         alt="profile Image"
         width={22}
         height={22}
-        onClick={() => setIsCartOpen((prev) => !prev)} 
+        
       ></Image>
       <div className="absolute -top-4 -right-4 h-6 bg-primary rounded-full text-white text-sm flex items-center justify-center">
       2
