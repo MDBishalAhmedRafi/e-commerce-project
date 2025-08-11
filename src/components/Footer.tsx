@@ -83,14 +83,16 @@ const Footer = () => {
         <div className="">
           @ 2025 Lama Shop
         </div>
-        <div className="">
+        <div className="flex flex-col gap-8 md:flex-row">
           <div className="">
-            {/* <span className="text-gray-500 mr-4">Language</span>
-            <span className="font-medium">United States | English</span> */}
-            {/* Video 1.28.0 */}
-            <div className="">
-            <span className=""></span>
-            </div>
+            <span className="text-gray-500 mr-4">Language</span>
+            <span className="font-medium">United States | English</span> 
+
+          </div>
+          <div className="">
+            <span className="text-gray-500 mr-4">Currency</span>
+            <span className="font-medium">$ USD</span> 
+
           </div>
         </div>
       </div>
