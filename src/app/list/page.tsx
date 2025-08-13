@@ -22,7 +22,7 @@ const ListPage = () => {
 
       {/* PRODUCTS LIST */}
       <h1 className="mt-12 text-xl font-semibold">Shows For You</h1>
-      <ProductList></ProductList>
+      <ProductList ></ProductList>
     </div>
   )
 }
